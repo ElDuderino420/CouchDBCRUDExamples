@@ -3,6 +3,13 @@
 ## General instructions
 Get couchDB from http://docs.couchdb.org/en/latest/install/unix.html#installation-using-the-apache-couchdb-convenience-binary-packages
 
+Get the docker couchDb image from: https://hub.docker.com/_/couchdb/
+
+Start a container with the image using:
+```sh
+$ docker run -p 5984:5984 -d couchdb //mirror the containers port 5984, so you can access it on your localhost
+```
+
 If you are using a debian based system you can also write:
 ```sh
 sudo apt-get install couchdb-bin -y //NOTICE the repo dosen't host the newest version.
@@ -33,7 +40,7 @@ curl -X PUT http://127.0.0.1:5984/person/1 -d '{"username" : "Møller"}' //input
 ## READ
 Reads the person document from the above step.
 ```sh
-curl http://127.0.0.1:5984/people/1 /input, ask for Id no. 1
+curl http://127.0.0.1:5984/people/1 //input, ask for Id no. 1
 {"_id":"1","_rev":"1-dfa783e23c0290b414e9f6500f907074","username":"Møler"} //output
 ```
 
