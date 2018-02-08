@@ -1,11 +1,17 @@
 # CouchDBCRUDExamples
 
 ## General instructions
+Get couchDB from http://docs.couchdb.org/en/latest/install/unix.html#installation-using-the-apache-couchdb-convenience-binary-packages
 
-CouchDB communicate over simple http requests, this means that curl is an excelent tool for interacting with you
+If you are using a debian based system you can also write:
+```sh
+sudo apt-get install couchdb-bin -y //NOTICE the repo dosen't host the newest version.
+```
+
+CouchDB communicate over simple http requests, this means that curl is an excelent tool for interacting with your
 database from the shell.
 
-CouchDB uses port 5984 as default - this guide assume your couchDB instance is hosted on localhost
+CouchDB uses port 5984 as default - this guide assumes your couchDB instance is hosted on localhost
 
 ## CREATE
 ### STEP 1
