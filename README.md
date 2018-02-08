@@ -61,3 +61,7 @@ and that's it - Møller Von Gottenstein is finaly gone!
 
 
 Good luck have fun!
+
+
+PS. tutorialpoints has a really down to earth description of all these functions, highly recommended intro point: 
+https://www.tutorialspoint.com/couchdb/index.htm
