@@ -1,4 +1,4 @@
-# CouchDBCRUDExamples
+# CouchDB CRUD Examples
 
 ## General instructions
 Get couchDB from http://docs.couchdb.org/en/latest/install/unix.html#installation-using-the-apache-couchdb-convenience-binary-packages
