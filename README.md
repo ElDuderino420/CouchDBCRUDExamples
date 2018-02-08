@@ -7,7 +7,7 @@ Get the docker couchDb image from: https://hub.docker.com/_/couchdb/
 
 Start a container with the image using:
 ```sh
-$ docker run -p 5984:5984 -d couchdb //mirror the containers port 5984, so you can access it on your localhost
+$ docker run -p 5984:5984 -d couchdb //forwards the containers port 5984, so you can access it on your localhost
 ```
 
 If you are using a debian based system you can also write:
